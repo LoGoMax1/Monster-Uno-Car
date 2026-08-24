@@ -44,7 +44,16 @@ O projeto tem como principais objetivos:
 - [ ] Desenvolver um carrinho parcialmente ou totalmente autônomo
 
 ---
+##  Imagens
+Conceito gerado com auxílio de IA
 
+![Conceitual feito pelo Gemini](assets/Conceitual-gemini.jpg)
+
+Mockup desenvolvido no CAD
+
+![Mockup-CAD](assets/mockup-CAD.jpg)
+
+---
 ##  Integrantes
 
 | RM | Nome |
