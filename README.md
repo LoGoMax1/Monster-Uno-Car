@@ -1,5 +1,3 @@
-# Monster-Uno-Car
-
 #  Carrinho Arduino
 
 Projeto de construção e desenvolvimento de um carrinho robótico utilizando Arduino Uno, driver L298N, motores DC, sensor ultrassônico e módulo seguidor de linha.
@@ -8,25 +6,13 @@ O projeto está sendo desenvolvido de forma incremental, começando pela montage
 
 ---
 
-## 📋 Componentes
+##  Integrantes
 
-O kit utilizado possui os seguintes componentes:
-
-| Quantidade | Componente |
+| RM | Nome |
 |:---:|---|
-| 4 | Motores DC |
-| 4 | Pneus |
-| 4 | Suportes para motores |
-| 2 | Chassis de acrílico |
-| 1 | Driver L298N |
-| 1 | Arduino Uno R3 (ATmega328P) |
-| 1 | Placa/suporte para sensores |
-| 1 | Kit de suporte |
-| 1 | Engrenagem de direção |
-| 1 | Sensor ultrassônico |
-| 1 | Módulo seguidor de linha |
-| 1 | Cabo USB |
-| — | Parafusos e porcas |
+| 551117 | Lorenzo Gomes Andreata |
+| 97158 | Lucas Moreno Matheus |
+| 99756 | Kayky Oliveira Schunck |
 
 ---
 
@@ -54,12 +40,34 @@ Mockup desenvolvido no CAD
 ![Mockup-CAD](assets/mockup-CAD.jpg)
 
 ---
-##  Integrantes
 
-| RM | Nome |
+## 📋 Componentes
+
+O kit utilizado possui os seguintes componentes:
+
+| Quantidade | Componente |
 |:---:|---|
-| 551117 | Lorenzo Gomes Andreata |
-| 97158 | Lucas Moreno Matheus |
-| 99756 | Kayky Oliveira Schunck |
+| 4 | Motores DC |
+| 4 | Pneus |
+| 4 | Suportes para motores |
+| 2 | Chassis de acrílico |
+| 1 | Driver L298N |
+| 1 | Arduino Uno R3 (ATmega328P) |
+| 1 | Placa/suporte para sensores |
+| 1 | Kit de suporte |
+| 1 | Engrenagem de direção |
+| 1 | Sensor ultrassônico |
+| 1 | Módulo seguidor de linha |
+| 1 | Cabo USB |
+| — | Parafusos e porcas |
 
+--- 
 
+## Tabela Dimensional
+
+| Componente | Dimensões | Altura |
+|---|:---:|:---:|
+| Arduino Uno R3 | 68,6 mm x 53,4 mm | ~15 mm |
+| Servo DC M2D3C11 | 70mm x 23mm | 37mm |
+| Driver Motor Ponte H L298N | 43,0 mm x 43,0 mm | ~27,0 mm |
+| Sensor Ultrassônico HC-SR04 | 45,0 mm x 20,0 mm | ~15,0 mm |
