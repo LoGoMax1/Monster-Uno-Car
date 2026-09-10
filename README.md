@@ -67,3 +67,7 @@ O kit utilizado possui os seguintes componentes:
 | Servo DC M2D3C11 | 70mm x 23mm | 37mm |
 | Driver Motor Ponte H L298N | 43,0 mm x 43,0 mm | ~27,0 mm |
 | Sensor Ultrassônico HC-SR04 | 45,0 mm x 20,0 mm | ~15,0 mm |
+
+## Croqui Chassi
+
+<script src="https://embed.github.com/view/3d/LoGoMax1/Monster-Uno-Car/master/assets/Chassi.stl"></script>
