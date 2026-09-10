@@ -4,8 +4,6 @@ Projeto de construção e desenvolvimento de um carrinho robótico utilizando Ar
 
 O projeto está sendo desenvolvido de forma incremental, começando pela montagem mecânica e testes dos componentes, seguindo posteriormente para a programação e automação do carrinho.
 
----
-
 ##  Integrantes
 
 | RM | Nome |
@@ -14,13 +12,11 @@ O projeto está sendo desenvolvido de forma incremental, começando pela montage
 | 97158 | Lucas Moreno Matheus |
 | 99756 | Kayky Oliveira Schunck |
 
----
-
 ##  Objetivos
 
 O projeto tem como principais objetivos:
 
-- [ ] Montar a estrutura física do carrinho
+- [X] Montar a estrutura física do carrinho
 - [ ] Controlar os quatro motores através do Arduino
 - [ ] Implementar movimentos para frente e para trás
 - [ ] Implementar curvas para esquerda e direita
@@ -29,7 +25,6 @@ O projeto tem como principais objetivos:
 - [ ] Integrar os sensores ao sistema de controle
 - [ ] Desenvolver um carrinho parcialmente ou totalmente autônomo
 
----
 ##  Imagens
 Conceito gerado com auxílio de IA
 
@@ -38,8 +33,6 @@ Conceito gerado com auxílio de IA
 Mockup desenvolvido no CAD
 
 ![Mockup-CAD](assets/mockup-CAD.jpg)
-
----
 
 ## 📋 Componentes
 
@@ -59,9 +52,12 @@ O kit utilizado possui os seguintes componentes:
 | 1 | Sensor ultrassônico |
 | 1 | Módulo seguidor de linha |
 | 1 | Cabo USB |
-| — | Parafusos e porcas |
+| - | Parafusos e porcas |
 
---- 
+## Arquitetura Eletrônica
+- Baterias: 4x Pilhas AA
+- Diagrama de https://saladeeletronica.blogspot.com/2022/10/carro-4wd-arduino.html:
+  ![alt text](assets/eletronica.jpg)
 
 ## Tabela Dimensional
 
