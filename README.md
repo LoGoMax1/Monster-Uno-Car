@@ -51,14 +51,14 @@ Os ensaios práticos gravados estão disponíveis em [`assets/carrinho/`](assets
 ### 1. Ensaio de Navegação Autônoma e Desvio de Obstáculos
 Demonstração do carrinho em deslocamento contínuo pelo solo, detectando barreiras, recuando e executando as manobras de giro à direita.
 
-<video src="assets/carrinho/vid2.mp4" controls width="100%" style="max-width: 720px; border-radius: 6px;"></video>
+https://github.com/user-attachments/assets/5e3ba238-4add-4b36-9cc3-faea7790a856
 
 > **Arquivo do vídeo:** [`assets/carrinho/vid2.mp4`](assets/carrinho/vid2.mp4)
 
 ### 2. Teste de Partida e Reação Frontal
 Demonstração da leitura frontal e acionamento da manobra de parada/recuo frente a aproximações de obstáculos.
 
-<video src="assets/carrinho/vid1.mp4" controls width="100%" style="max-width: 420px; border-radius: 6px;"></video>
+https://github.com/user-attachments/assets/8d64f554-36b3-40b0-92b0-a601ae4ed8c9
 
 > **Arquivo do vídeo:** [`assets/carrinho/vid1.mp4`](assets/carrinho/vid1.mp4)
 
