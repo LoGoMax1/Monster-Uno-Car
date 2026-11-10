@@ -1,5 +1,18 @@
 
 #include <NewPing.h>
+#include <DHT.h>
+
+// =========================
+// SENSOR DHT11
+// =========================
+
+#define DHT_PIN 2
+#define DHT_TYPE DHT11
+
+DHT dht(DHT_PIN, DHT_TYPE);
+
+unsigned long ultimaLeituraDHT = 0;
+const unsigned long intervaloDHT = 2000;
 
 // =========================
 // Pinos de controle do L298N
@@ -43,6 +56,9 @@ const unsigned long stop_time = 300;
 void setup() {
   Serial.begin(9600);
 
+  // Inicializa o DHT11
+  dht.begin();
+
   pinMode(LeftMotorForward, OUTPUT);
   pinMode(LeftMotorBackward, OUTPUT);
   pinMode(RightMotorForward, OUTPUT);
@@ -57,7 +73,55 @@ void setup() {
   aguardarComandoInicializacao();
 }
 
+// =========================
+// LEITURA E TRANSMISSAO DHT11
+// =========================
 
+void lerAmbiente() {
+
+  unsigned long agora = millis();
+
+  // Realiza leitura a cada 2 segundos
+  if (agora - ultimaLeituraDHT >= intervaloDHT) {
+
+    ultimaLeituraDHT = agora;
+
+    float temperatura = dht.readTemperature();
+    float umidade = dht.readHumidity();
+
+    // Verifica se a leitura foi valida
+    if (isnan(temperatura) || isnan(umidade)) {
+
+      Serial.println("ERRO: Falha na leitura do DHT11.");
+
+      return;
+    }
+
+    // Transmite informacoes ambientais
+    Serial.println();
+    Serial.println("===== DADOS AMBIENTAIS =====");
+
+    Serial.print("Temperatura: ");
+    Serial.print(temperatura);
+    Serial.println(" C");
+
+    Serial.print("Umidade: ");
+    Serial.print(umidade);
+    Serial.println(" %");
+
+    // Formato para transmissao dos dados
+    Serial.print("DHT11,");
+    Serial.print(temperatura);
+    Serial.print(",");
+    Serial.println(umidade);
+
+    Serial.println("============================");
+  }
+}
+
+// =========================
+// INICIALIZACAO POR GESTO
+// =========================
 
 void aguardarComandoInicializacao() {
   const int distanciaMinima = 2;
@@ -171,6 +235,10 @@ void sinalDeVida() {
 // =========================
 
 void loop() {
+
+  // Leitura e transmissao do DHT11
+  lerAmbiente();
+
   int distance = readPing();
 
   if (distance < 0) {
