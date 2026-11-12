@@ -65,6 +65,14 @@ https://github.com/user-attachments/assets/8d64f554-36b3-40b0-92b0-a601ae4ed8c9
 
 ---
 
+## Resultados do DHT11 no Monitor Serial
+
+O Monitor Serial exibe as leituras de temperatura e umidade realizadas pelo sensor DHT11 a cada 2 segundos. Os dados também são apresentados no formato `DHT11,temperatura,umidade`, facilitando o acompanhamento dos resultados:
+
+![Resultados do DHT11 no Monitor Serial](assets/carrinho/Serial-monitor.jpg)
+
+---
+
 ## Lógica de Controle e Firmware
 
 O código-fonte completo está localizado em [`codigo-carrinho-monster/codigo-carrinho-monster.ino`](codigo-carrinho-monster/codigo-carrinho-monster.ino).
