@@ -63,6 +63,11 @@ https://github.com/user-attachments/assets/8d64f554-36b3-40b0-92b0-a601ae4ed8c9
 
 > **Arquivo do vídeo:** [`assets/carrinho/vid1.mp4`](assets/carrinho/vid1.mp4)
 
+### 3. Movimento do Carrinho após a Integração do DHT11
+Demonstração do carrinho andando após o acréscimo do sensor DHT11, realizando simultaneamente a navegação autônoma e o monitoramento da temperatura e umidade.
+
+> **Arquivo do vídeo:** [`assets/carrinho/vid3.mp4`](assets/carrinho/vid3.mp4)
+
 ---
 
 ## Resultados do DHT11 no Monitor Serial
